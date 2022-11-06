@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which courses do you have?",
+        "What kinds of programs are there?",
+        "Which courses do you offer?"
+      ],
+      "responses": [
+        "We soffer variety of courses ranging from Medical, Human Sciences, Enginnering, Computing, Social Sciences and many more. Visit Our Website for more info. https://mku.ac.ke",
+        "We are credited to offer variety of courses, Visit https://mku.ac.ke for more information."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard , Mpesa and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "How long does each course take?",
+        "How long does academic year take?",
+        "When can I graduate?"
+      ],
+      "responses": [
+        "Most Course takes 4-8 years",
+        "academic year is equivalent to 2 semesters for bachelors programmes",
+        "You will be eligible for graduation after completion of your course"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
